@@ -29,7 +29,7 @@ module testbench(
     wire    [63: 0]     result;
     wire    [63: 0]     ref;
     
-    Booth Booth(
+    multiplier multiplier(
         .X(X),
         .Y(Y),
         .result(result)    
