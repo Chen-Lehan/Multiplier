@@ -5,7 +5,7 @@
 // 
 // Create Date: 2021/09/15 12:11:30
 // Design Name: 
-// Module Name: Booth
+// Module Name: multiplier
 // Project Name: 
 // Target Devices: 
 // Tool Versions: 
@@ -20,7 +20,7 @@
 //////////////////////////////////////////////////////////////////////////////////
 
 
-module Booth(
+module multiplier(
     input   [31: 0]     X,
     input   [31: 0]     Y,
     output  [63: 0]     result
